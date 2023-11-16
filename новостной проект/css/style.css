@@ -1,0 +1,316 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+/* General settings */
+.container {
+  max-width: 1325px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  height: 150px;
+  border-bottom: 1px #000 solid;
+}
+
+.header__container {
+  max-width: 1225px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header__logo {
+  font-size: 40px;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.date-now {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav__news-today {
+  margin-right: 20px;
+  font-size: 30px;
+  color: #000;
+}
+
+.nav__news-week {
+  margin-right: 15px;
+  font-size: 30px;
+  color: #000;
+}
+
+/* Section SubHeader */
+
+.subheader {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  height: auto;
+  padding: 10px;
+  border-bottom: 1px #000 solid;
+}
+
+.subheader__content {
+  width: 1225px;
+  text-align: center;
+}
+
+.subheader__content:not(:last-child) {
+  margin-right: 15px;
+}
+
+.subheader__sport {
+  margin-right: 15px;
+  color: #000;
+}
+
+.subheader__sport:hover {
+  color: aqua;
+}
+
+.subheader__in-world {
+  margin-right: 15px;
+  color: #000;
+}
+
+.subheader__in-world:hover {
+  color: aqua;
+}
+
+.subheader__economy {
+  margin-right: 15px;
+  color: #000;
+}
+
+.subheader__economy:hover {
+  color: aqua;
+}
+
+.subheader__army {
+  margin-right: 15px;
+  color: #000;
+}
+
+.subheader__army:hover {
+  color: aqua;
+}
+
+.subheader__science {
+  margin-right: 15px;
+  color: #000;
+}
+
+.subheader__science:hover {
+  color: aqua;
+}
+
+.subheader__politics {
+  margin-right: 15px;
+  color: #000;
+}
+
+.subheader__politics:hover {
+  color: aqua;
+}
+
+.subheader__culture {
+  margin-right: 15px;
+  color: #000;
+}
+
+.subheader__culture:hover {
+  color: aqua
+}
+
+/* Section News-row */
+
+.news__row {
+
+}
+
+.news__row-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 30px;
+  margin-top: 35px;
+}
+
+.content__card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  padding: 20px;
+  max-width: 300px;
+  border: solid #000 1px;
+  border-radius: 12px;
+}
+
+.news__row-cards {
+  /* display: flex; */
+  /* flex-direction: row; */
+  margin-bottom: auto;
+}
+
+.content__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__card:hover {
+  transition: 300ms;
+  box-shadow: -1px 1px 22px 17px rgba(34, 60, 80, 0.18);
+  transform: scale(1.02);
+}
+
+.content__card-title {
+  text-align: center;
+  padding-bottom: 15px;
+  opacity: 60%;
+}
+
+.content__card-img {
+  padding-bottom: 10px;
+  border-bottom: solid 1px #000;
+}
+
+.content__card-description {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.news__row-sport {
+  margin-bottom: auto;
+}
+
+.news__row-in-world {
+  margin-bottom: auto;
+}
+
+.news__row-economy {
+  margin-bottom: auto;
+}
+
+.news__row-army {
+  margin-bottom: auto;
+}
+
+.news__row-science {
+  margin-bottom: auto;
+}
+
+.news__row-politics {
+  margin-bottom: auto;
+}
+
+.news__row-culture {
+  margin-bottom: auto;
+}

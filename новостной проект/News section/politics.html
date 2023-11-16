@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>In-world</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="./section.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__content">
+        <h1 class="header__logo">
+          <div class="back">
+            <a href="../index.html">
+              BlogNews
+            </a>
+          </div>
+        </h1>
+        <nav class="header__nav">
+          <a href="#" class="nav__news-week">News week</a>
+          <a href="#" class="nav__news-today">News today</a>
+          <div class="date-now">
+            <script language="javascript" type="text/javascript" class="date">
+              let d = new Date();
+              let day=new Array("Воскресенье","Понедельник","Вторник","Среда","Четверг","Пятница","Суббота");
+              let month=new Array("января","февраля","марта","апреля","мая","июня","июля","августа",
+              "сентября","октября","ноября","декабря");
+              let dateNow = document.write(`${day[d.getDay()]} ${d.getDate()} ${month[d.getMonth()]} ${d.getFullYear()} г.`);
+              dateNow.classList.add('.nav__news-today')
+            </script>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="subheader">
+    <div class="container">
+      <div class="subheader__content">
+
+        
+        <a target="" href="./sport.html" class="subheader__sport"><span>&#127942;</span>Спорт</a>
+
+        <a target="" href="./in-world.html" class="subheader__in-world"><span>&#127757;</span>В мире</a>
+
+        <a target="" href="./economy.html" class="subheader__economy"><span>&#128185;</span>Экономика</a>
+
+        <a target="" href="./army.html" class="subheader__army"><span>&#128130;</span>Армия</a>
+
+        <a target="" href="./science.html" class="subheader__science"><span>&#128104;</span>Наука</a>
+
+        <!-- Design of the section politics -->
+        <a target="" href="./politics.html" class="subheader__politics"  style="
+        display: inline-block;
+        padding: 13px;
+        margin-right: 15px;
+        height: 62px;
+
+        box-shadow: -1px 1px 8px 9px rgba(34, 60, 80, 0.2);
+        color: #000;
+        background-color: #d3d3d3;
+        "><span>&#128506;</span>Политика</a>
+
+        <a target="" href="./culture.html" class="subheader__culture"><span>&#128509;</span>Культура</a>
+
+
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section>
+      <div class="container">
+         
+
+
+            <!-- Section card -->
+            <div class="content__cards">
+              <div class="content__card">
+                <div class="content__card-title">
+                  Санкции Чехии
+                </div>
+                <div class="content__card-img">
+                  <img src="../img/news__row-img/politics/zaharova.jpg" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Захарова заявила, что санкции Чехии не останутся без ответа
+                </div>
+              </div>
+
+
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Дискредитации выборов в России
+                </div>
+                <div class="content__card-img">
+                  <img src="../img/news__row-img/politics/vibori.jpg" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Эксперт прокомментировал попытки дискредитации выборов в России
+                </div>
+              </div>
+
+              
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  СНГ не дружит против третьих стран
+                </div>
+                <div class="content__card-img">
+                  <img src="../img/news__row-img/politics/matvienko.jpg" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Матвиенко отметила, что СНГ не дружит против третьих стран
+                </div>
+              </div>
+
+              
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Местное самоуправление
+                </div>
+                <div class="content__card-img">
+                  <img src="../img/news__row-img/politics/samoupr.jpg" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  В России могут до конца года принять закон о местном самоуправлении
+                </div>
+              </div>
+
+
+
+      </div>
+    </section>
+  </main>
+  <div class="today-date"></div>
+</body>
+</html>

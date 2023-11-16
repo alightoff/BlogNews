@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Economy</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="./section.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__content">
+        <h1 class="header__logo">
+          <div class="back">
+            <a href="../index.html">
+              BlogNews
+            </a>
+          </div>
+        </h1>
+        <nav class="header__nav">
+          <a href="#" class="nav__news-week">News week</a>
+          <a href="#" class="nav__news-today">News today</a>
+          <div class="date-now">
+            <script language="javascript" type="text/javascript" class="date">
+              let d = new Date();
+              let day=new Array("Воскресенье","Понедельник","Вторник","Среда","Четверг","Пятница","Суббота");
+              let month=new Array("января","февраля","марта","апреля","мая","июня","июля","августа",
+              "сентября","октября","ноября","декабря");
+              let dateNow = document.write(`${day[d.getDay()]} ${d.getDate()} ${month[d.getMonth()]} ${d.getFullYear()} г.`);
+              dateNow.classList.add('.nav__news-today')
+            </script>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="subheader">
+    <div class="container">
+      <div class="subheader__content">
+
+        
+        <a target="" href="./sport.html" class="subheader__sport"><span>&#127942;</span>Спорт</a>
+
+        <a target="" href="./in-world.html" class="subheader__in-world"><span>&#127757;</span>В мире</a>
+
+        <!-- Design of the section economy -->
+        <a target="" href="./economy.html" class="subheader__economy"  style="
+        display: inline-block;
+        padding: 13px;
+        margin-right: 15px;
+        height: 62px;
+
+        box-shadow: -1px 1px 8px 9px rgba(34, 60, 80, 0.2);
+        color: #000;
+        background-color: #d3d3d3;
+        "><span>&#128185;</span>Экономика</a>
+
+        <a target="" href="./army.html" class="subheader__army"><span>&#128130;</span>Армия</a>
+
+        <a target="" href="./science.html" class="subheader__science"><span>&#128104;</span>Наука</a>
+
+        <a target="" href="./politics.html" class="subheader__politics"><span>&#128506;</span>Политика</a>
+
+        <a target="" href="./culture.html" class="subheader__culture"><span>&#128509;</span>Культура</a>
+
+
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section>
+      <div class="container">
+        
+
+
+            <!-- Section card -->
+            <div class="content__cards">
+              <div class="content__card">
+                <div class="content__card-title">
+                  12-ый пакет санкций
+                </div>
+                <div class="content__card-img">
+                  <img src="../img/news__row-img/economy/12paket.webp" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Еврокомиссия одобрила предложения по 12-му пакету санкций против России
+                </div>
+              </div>
+
+
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Бюджет на 2024 год
+                </div>
+                <div class="content__card-img">
+                  <img src="../img/news__row-img/economy/budjet.webp" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Госдума приняла проект бюджета на 2024 год в основном чтении
+                </div>
+              </div>
+
+              
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Перераспределение бюджета
+                </div>
+                <div class="content__card-img">
+                  <img src="../img/news__row-img/economy/1трлн.webp" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Власти перераспределят более ₽1 трлн из закрытой части бюджета в открытую
+                </div>
+              </div>
+
+              
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Рекордный ВВП
+                </div>
+                <div class="content__card-img">
+                  <img src="../img/news__row-img/economy/vvp.webp" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Росстат зафиксировал рекордный с 2021-го рост ВВП за квартал
+                </div>
+              </div>
+
+
+
+      </div>
+    </section>
+  </main>
+  <div class="today-date"></div>
+</body>
+</html>

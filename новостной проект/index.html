@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlogNews</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__content">
+        <h1 class="header__logo">BlogNews</h1>
+        <nav class="header__nav">
+          <a href="#" class="nav__news-week">News week</a>
+          <a href="#" class="nav__news-today">News today</a>
+          <div class="date-now">
+            <script language="javascript" type="text/javascript" class="date">
+              let d = new Date();
+              let day=new Array("Воскресенье","Понедельник","Вторник","Среда","Четверг","Пятница","Суббота");
+              let month=new Array("января","февраля","марта","апреля","мая","июня","июля","августа",
+              "сентября","октября","ноября","декабря");
+              let dateNow = document.write(`${day[d.getDay()]} ${d.getDate()} ${month[d.getMonth()]} ${d.getFullYear()} г.`);
+              dateNow.classList.add('.nav__news-today')
+            </script>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="subheader">
+    <div class="container">
+      <div class="subheader__content">
+        <a target="" href="./News section/sport.html" class="subheader__sport"><span>&#127942;</span>Спорт</a>
+        <a target="" href="./News section/in-world.html" class="subheader__in-world"><span>&#127757;</span>В мире</a>
+        <a target="" href="./News section/economy.html" class="subheader__economy"><span>&#128185;</span>Экономика</a>
+        <a target="" href="./News section/army.html" class="subheader__army"><span>&#128130;</span>Армия</a>
+        <a target="" href="./News section/science.html" class="subheader__science"><span>&#128104;</span>Наука</a>
+        <a target="" href="./News section/politics.html" class="subheader__politics"><span>&#128506;</span>Политика</a>
+        <a target="" href="./News section/culture.html" class="subheader__culture"><span>&#128509;</span>Культура</a>
+      </div>
+    </div>
+  </section>
+  <main>
+    <section class="news__row">
+      <div class="container news__row-container">
+
+
+        <div class="news__row-sport">
+
+          <!-- Name section sport -->
+          <div class="title">
+            <h3>Спорт</h3>
+          </div>
+          <!-- Content section sport -->
+          <div class="news__row-cards">
+
+
+            <!-- Section card -->
+            <div class="content__cards">
+              <div class="content__card">
+                <div class="content__card-title">
+                  Теннис
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/sport/tennis.jpg" alt="">
+                </div>
+                <div class="content__card-description">
+                  Медведев уверенно убрал Зверева на пути к титулу. И сделал немца своим главным фанатом
+                </div>
+              </div>
+
+
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Лыжный спорт
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/sport/lizhni.jpg" alt="">
+                </div>
+                <div class="content__card-description">
+                  В Швеции издеваются над своими же лыжниками. Членам сборной платят рыбой и сосисками
+                </div>
+              </div>
+
+              
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Олимпийские игры
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/sport/mok.jpg" alt="">
+                </div>
+                <div class="content__card-description">
+                  От подлости Баха уже воротит. Глава МОК до жути боится Россию
+                </div>
+              </div>
+
+              
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Хоккей
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/sport/hockey.jpg" alt="">
+                </div>
+                <div class="content__card-description">
+                  Хоккеиста арестовали за убийство на льду. Полоснул соперника коньком по горлу
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="news__row-in-world">
+
+          <!-- Name section in-world -->
+          <div class="title">
+            В мире
+          </div>
+          <!-- Content section in-world -->
+          <div class="news__row-cards">
+            
+
+
+            <!-- Section card -->
+              <div class="content__cards">
+                <div class="content__card">
+                  <div class="content__card-title">
+                    ЮАР
+                  </div>
+                  <div class="content__card-img">
+                    <img src="./img/news__row-img/in-world/mus.png" alt=""  width="300px">
+                  </div>
+                  <div class="content__card-description">
+                    Президент ЮАР призвал МУС расследовать военные преступления Израиля в Газе
+                  </div>
+                </div>
+            
+
+
+              <!-- Section card -->
+                <div class="content__card">
+                  <div class="content__card-title">
+                    Норвегия
+                  </div>
+                  <div class="content__card-img">
+                    <img src="./img/news__row-img/in-world/norvege.png" alt=""  width="300px">
+                  </div>
+                  <div class="content__card-description">
+                    Глава Минюста Норвегии допустила закрытие КПП на границе с Россией
+                  </div>
+                </div>
+
+              
+              <!-- Section card -->
+                <div class="content__card">
+                  <div class="content__card-title">
+                    Молдова
+                  </div>
+                  <div class="content__card-img">
+                    <img src="./img/news__row-img/in-world/doroga.png" alt=""  width="300px">
+                  </div>
+                  <div class="content__card-description">
+                    В ПМР рассказали об угрозах дорожникам со стороны молдавской полиции
+                  </div>
+                </div>
+
+              
+              <!-- Section card -->
+                <div class="content__card">
+                  <div class="content__card-title">
+                    Норвегия
+                  </div>
+                  <div class="content__card-img">
+                    <img src="./img/news__row-img/in-world/palestina.png" alt="" width="300px">
+                  </div>
+                  <div class="content__card-description">
+                    Парламент Норвегии рекомендовал властям быть готовым к признанию Палестины
+                  </div>
+                </div>
+
+
+
+          </div>
+        </div>
+
+
+
+        <div class="news__row-economy">
+          
+          <!-- Name section economy -->
+          <div class="title">
+            Экономика
+          </div>
+          <!-- Content section economy -->
+          <div class="news__row-cards">
+            
+
+
+            <!-- Section card -->
+            <div class="content__cards">
+              <div class="content__card">
+                <div class="content__card-title">
+                  12-ый пакет санкций
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/economy/12paket.webp" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Еврокомиссия одобрила предложения по 12-му пакету санкций против России
+                </div>
+              </div>
+
+
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Бюджет на 2024 год
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/economy/budjet.webp" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Госдума приняла проект бюджета на 2024 год в основном чтении
+                </div>
+              </div>
+
+              
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Перераспределение бюджета
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/economy/1трлн.webp" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Власти перераспределят более ₽1 трлн из закрытой части бюджета в открытую
+                </div>
+              </div>
+
+              
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Рекордный ВВП
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/economy/vvp.webp" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Росстат зафиксировал рекордный с 2021-го рост ВВП за квартал
+                </div>
+              </div>
+
+
+
+          </div>
+        </div>
+
+
+
+        <div class="news__row-army">
+          
+          <!-- Name section army -->
+          <div class="title">
+            Армия
+          </div>
+          <!-- Content section army -->
+          <div class="news__row-cards">
+            
+
+
+            <!-- Section card -->
+            <div class="content__cards">
+              <div class="content__card">
+                <div class="content__card-title">
+                  Уникальный опыт
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/army/lechenie.webp" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  В Минобороны заявили об уникальном опыте лечения боевых травм
+                </div>
+              </div>
+
+
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Провал ВСУ
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/army/proval.webp" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Украинский пленный рассказал о провале ВСУ на левом берегу Днепра
+                </div>
+              </div>
+
+              
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Потери ВСУ на Херсонском направлении
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/army/poteriherson.webp" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Российские войска уничтожили до 70 бойцов ВСУ на Херсонском направлении
+                </div>
+              </div>
+
+              
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Потери ВСУ
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/army/poterivsu.webp" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  В Минобороны оценили потери украинских войск на двух направлениях
+                </div>
+              </div>
+
+
+
+          </div>
+        </div>
+
+
+
+        <div class="news__row-science">
+          
+          <!-- Name section science -->
+          <div class="title">
+            Наука
+          </div>
+          <!-- Content section science -->
+          <div class="news__row-cards">
+            
+
+
+            <!-- Section card -->
+            <div class="content__cards">
+              <div class="content__card">
+                <div class="content__card-title">
+                  Уникальная нейросеть
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/science/neiroset.jpg" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  В России создали уникальную нейросеть для определения типа дыхания
+                </div>
+              </div>
+
+
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Инновационный сахарозаменитель
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/science/saxarozam.jpg" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Российские ученые придумали инновационный сахарозаменитель без углеводов
+                </div>
+              </div>
+
+              
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Попадания жизни на Землю
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/science/live.jpg" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Ученые доказали возможность попадания жизни на Землю из космоса
+                </div>
+              </div>
+
+              
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Обнаружили артефакты эпохи неолита
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/science/kamchatka.jpg" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  На Камчатке обнаружили артефакты эпохи неолита
+                </div>
+              </div>
+
+
+
+          </div>
+        </div>
+
+
+
+        <div class="news__row-politics">
+          
+          <!-- Name section politics -->
+          <div class="title">
+            Политика
+          </div>
+          <!-- Content section politics -->
+          <div class="news__row-cards">
+            
+
+
+            <!-- Section card -->
+            <div class="content__cards">
+              <div class="content__card">
+                <div class="content__card-title">
+                  Санкции Чехии
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/politics/zaharova.jpg" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Захарова заявила, что санкции Чехии не останутся без ответа
+                </div>
+              </div>
+
+
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Дискредитации выборов в России
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/politics/vibori.jpg" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Эксперт прокомментировал попытки дискредитации выборов в России
+                </div>
+              </div>
+
+              
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  СНГ не дружит против третьих стран
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/politics/matvienko.jpg" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Матвиенко отметила, что СНГ не дружит против третьих стран
+                </div>
+              </div>
+
+              
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Местное самоуправление
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/politics/samoupr.jpg" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  В России могут до конца года принять закон о местном самоуправлении
+                </div>
+              </div>
+
+
+
+          </div>
+        </div>
+
+
+
+        <div class="news__row-culture">
+          
+          <!-- Name section culture -->
+          <div class="title">
+            Культура
+          </div>
+          <!-- Content section culture -->
+          <div class="news__row-cards">
+            
+
+
+            <!-- Section card -->
+            <div class="content__cards">
+              <div class="content__card">
+                <div class="content__card-title">
+                  Вопрос о Гергиеве и Большой театр
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/culture/pescov.jpg" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Песков перенаправил в Минкультуры вопрос о Гергиеве и Большой театр
+                </div>
+              </div>
+
+
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Киноляпы
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/culture/kinolapi.jpg" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Киноляпы: чего вы не замечали в любимых фильмах
+                </div>
+              </div>
+
+              
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Экс-участник "Би-2"
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/culture/alexandr.jpg" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Экс-участник "Би-2" найден мертвым
+                </div>
+              </div>
+
+              
+              <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Состояние режиссера Александра Митта
+                </div>
+                <div class="content__card-img">
+                  <img src="./img/news__row-img/army/poterivsu.webp" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Врачи рассказали о состоянии режиссера Александра Митты
+                </div>
+              </div>
+
+
+
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+  </main>
+  <div class="today-date"></div>
+</body>
+<script src="./script/script.js"></script>
+</html>

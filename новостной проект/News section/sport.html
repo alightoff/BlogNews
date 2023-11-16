@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>In-world</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="./section.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__content">
+        <h1 class="header__logo">
+          <div class="back">
+            <a href="../index.html">
+              BlogNews
+            </a>
+          </div>
+        </h1>
+        <nav class="header__nav">
+          <a href="#" class="nav__news-week">News week</a>
+          <a href="#" class="nav__news-today">News today</a>
+          <div class="date-now">
+            <script language="javascript" type="text/javascript" class="date">
+              let d = new Date();
+              let day=new Array("Воскресенье","Понедельник","Вторник","Среда","Четверг","Пятница","Суббота");
+              let month=new Array("января","февраля","марта","апреля","мая","июня","июля","августа",
+              "сентября","октября","ноября","декабря");
+              let dateNow = document.write(`${day[d.getDay()]} ${d.getDate()} ${month[d.getMonth()]} ${d.getFullYear()} г.`);
+              dateNow.classList.add('.nav__news-today')
+            </script>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="subheader">
+    <div class="container">
+      <div class="subheader__content">
+
+        
+        <!-- Design of the section sport -->
+        <a target="" href="./sport.html" class="subheader__sport"  style="
+        display: inline-block;
+        padding: 13px;
+        margin-right: 15px;
+        height: 62px;
+
+        box-shadow: -1px 1px 8px 9px rgba(34, 60, 80, 0.2);
+        color: #000;
+        background-color: #d3d3d3;
+        "><span>&#127942;</span>Спорт</a>
+
+        <a target="" href="./in-world.html" class="subheader__in-world"><span>&#127757;</span>В мире</a>
+
+        <a target="" href="./economy.html" class="subheader__economy"><span>&#128185;</span>Экономика</a>
+
+        <a target="" href="./army.html" class="subheader__army"><span>&#128130;</span>Армия</a>
+
+        <a target="" href="./science.html" class="subheader__science"><span>&#128104;</span>Наука</a>
+
+        <a target="" href="./politics.html" class="subheader__politics"><span>&#128506;</span>Политика</a>
+
+        <a target="" href="./culture.html" class="subheader__culture"><span>&#128509;</span>Культура</a>
+
+
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section>
+      <div class="container">
+
+
+        <!-- Section card -->
+        <div class="content__cards">
+          <div class="content__card">
+            <div class="content__card-title">
+              Теннис
+            </div>
+            <div class="content__card-img">
+              <img src="../img/news__row-img/sport/tennis.jpg" alt="">
+            </div>
+            <div class="content__card-description">
+              Медведев уверенно убрал Зверева на пути к титулу. И сделал немца своим главным фанатом
+            </div>
+          </div>
+
+
+          <!-- Section card -->
+          <div class="content__card">
+            <div class="content__card-title">
+              Лыжный спорт
+            </div>
+            <div class="content__card-img">
+              <img src="../img/news__row-img/sport/lizhni.jpg" alt="">
+            </div>
+            <div class="content__card-description">
+              В Швеции издеваются над своими же лыжниками. Членам сборной платят рыбой и сосисками
+            </div>
+          </div>
+
+          
+          <!-- Section card -->
+          <div class="content__card">
+            <div class="content__card-title">
+              Олимпийские игры
+            </div>
+            <div class="content__card-img">
+              <img src="../img/news__row-img/sport/mok.jpg" alt="">
+            </div>
+            <div class="content__card-description">
+              От подлости Баха уже воротит. Глава МОК до жути боится Россию
+            </div>
+          </div>
+
+          
+          <!-- Section card -->
+          <div class="content__card">
+            <div class="content__card-title">
+              Хоккей
+            </div>
+            <div class="content__card-img">
+              <img src="../img/news__row-img/sport/hockey.jpg" alt="">
+            </div>
+            <div class="content__card-description">
+              Хоккеиста арестовали за убийство на льду. Полоснул соперника коньком по горлу
+            </div>
+          </div>
+
+
+          
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <div class="today-date"></div>
+</body>
+</html>

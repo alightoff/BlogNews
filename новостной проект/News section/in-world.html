@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>In-world</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="./section.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__content">
+        <h1 class="header__logo">
+          <div class="back">
+            <a href="../index.html">
+              BlogNews
+            </a>
+          </div>
+        </h1>
+        <nav class="header__nav">
+          <a href="#" class="nav__news-week">News week</a>
+          <a href="#" class="nav__news-today">News today</a>
+          <div class="date-now">
+            <script language="javascript" type="text/javascript" class="date">
+              let d = new Date();
+              let day=new Array("Воскресенье","Понедельник","Вторник","Среда","Четверг","Пятница","Суббота");
+              let month=new Array("января","февраля","марта","апреля","мая","июня","июля","августа",
+              "сентября","октября","ноября","декабря");
+              let dateNow = document.write(`${day[d.getDay()]} ${d.getDate()} ${month[d.getMonth()]} ${d.getFullYear()} г.`);
+              dateNow.classList.add('.nav__news-today')
+            </script>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="subheader">
+    <div class="container">
+      <div class="subheader__content">
+
+        
+        <a target="" href="./sport.html" class="subheader__sport"><span>&#127942;</span>Спорт</a>
+
+        <!-- Design of the section in-world -->
+        <a target="" href="./in-world.html" class="subheader__in-world"  style="
+        display: inline-block;
+        padding: 13px;
+        margin-right: 15px;
+        height: 62px;
+
+        box-shadow: -1px 1px 8px 9px rgba(34, 60, 80, 0.2);
+        color: #000;
+        background-color: #d3d3d3;
+        "><span>&#127757;</span>В мире</a>
+
+        <!-- Design of the section in-world -->
+        <a target="" href="./economy.html" class="subheader__economy"><span>&#128185;</span>Экономика</a>
+
+        <a target="" href="./army.html" class="subheader__army"><span>&#128130;</span>Армия</a>
+
+        <a target="" href="./science.html" class="subheader__science"><span>&#128104;</span>Наука</a>
+
+        <a target="" href="./politics.html" class="subheader__politics"><span>&#128506;</span>Политика</a>
+
+        <a target="" href="./culture.html" class="subheader__culture"><span>&#128509;</span>Культура</a>
+
+
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section>
+      <div class="container">
+        
+
+
+            <!-- Section card -->
+            <div class="content__cards">
+              <div class="content__card">
+                <div class="content__card-title">
+                  ЮАР
+                </div>
+                <div class="content__card-img">
+                  <img src="../img/news__row-img/in-world/mus.png" alt=""  width="300px">
+                </div>
+                <div class="content__card-description">
+                  Президент ЮАР призвал МУС расследовать военные преступления Израиля в Газе
+                </div>
+              </div>
+          
+
+
+            <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Норвегия
+                </div>
+                <div class="content__card-img">
+                  <img src="../img/news__row-img/in-world/norvege.png" alt=""  width="300px">
+                </div>
+                <div class="content__card-description">
+                  Глава Минюста Норвегии допустила закрытие КПП на границе с Россией
+                </div>
+              </div>
+
+            
+            <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Молдова
+                </div>
+                <div class="content__card-img">
+                  <img src="../img/news__row-img/in-world/doroga.png" alt=""  width="300px">
+                </div>
+                <div class="content__card-description">
+                  В ПМР рассказали об угрозах дорожникам со стороны молдавской полиции
+                </div>
+              </div>
+
+            
+            <!-- Section card -->
+              <div class="content__card">
+                <div class="content__card-title">
+                  Норвегия
+                </div>
+                <div class="content__card-img">
+                  <img src="../img/news__row-img/in-world/palestina.png" alt="" width="300px">
+                </div>
+                <div class="content__card-description">
+                  Парламент Норвегии рекомендовал властям быть готовым к признанию Палестины
+                </div>
+              </div>
+
+
+
+      </div>
+    </section>
+  </main>
+  <div class="today-date"></div>
+</body>
+</html>
